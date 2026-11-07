@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F987B4146574EBDB75665D2 /* PureqingWatermarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD1CBBF629695357D1462C /* PureqingWatermarkApp.swift */; };
+		42A3BC3630979F970097D13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A3BC3530979F970097D13C /* Assets.xcassets */; };
+		E97763BB56ACAE4A7595B95F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AE03EC4748D46F5B7EC210 /* ContentView.swift */; };
+		A01A01A01A01A01A01A01A01 /* AnimeFaceCascade.json in Resources */ = {isa = PBXBuildFile; fileRef = A02A02A02A02A02A02A02A02 /* AnimeFaceCascade.json */; };
+		C00000000000000000000001 /* BatchProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001; };
+		C00000000000000000000002 /* WatermarkPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002; };
+		C00000000000000000000003 /* AnimeFaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03AE03EC4748D46F5B7EC210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42A3BC3530979F970097D13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AD1CBBF629695357D1462C /* PureqingWatermarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureqingWatermarkApp.swift; sourceTree = "<group>"; };
+		DBE8AF995D657A7CB53FFC98 /* PureqingWatermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureqingWatermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02A02A02A02A02A02A02A02 /* AnimeFaceCascade.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimeFaceCascade.json; sourceTree = "<group>"; };
+		B00000000000000000000001 /* BatchProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchProgress.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* WatermarkPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermarkPresets.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* AnimeFaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeFaceDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59DA44F501915F60FB0BCDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F2DF71287029832A8AD6AA /* PureqingWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD1CBBF629695357D1462C /* PureqingWatermarkApp.swift */,
+				03AE03EC4748D46F5B7EC210 /* ContentView.swift */,
+                B00000000000000000000003 /* AnimeFaceDetector.swift */,
+                B00000000000000000000002 /* WatermarkPresets.swift */,
+                B00000000000000000000001 /* BatchProgress.swift */,
+				42A3BC3530979F970097D13C /* Assets.xcassets */,
+                A02A02A02A02A02A02A02A02 /* AnimeFaceCascade.json */,
+			);
+			path = PureqingWatermark;
+			sourceTree = "<group>";
+		};
+		2A2968EFB8D9DADD6B8C470A = {
+			isa = PBXGroup;
+			children = (
+				20F2DF71287029832A8AD6AA /* PureqingWatermark */,
+				CD02BBD63E25422BCE889891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD02BBD63E25422BCE889891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE8AF995D657A7CB53FFC98 /* PureqingWatermark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501D048A2DDCD29814D77A0E /* PureqingWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97F8757B963BFE241884527 /* Build configuration list for PBXNativeTarget "PureqingWatermark" */;
+			buildPhases = (
+				0AB7A94DC3F28B37D1884017 /* Sources */,
+				59DA44F501915F60FB0BCDC2 /* Frameworks */,
+				5A20ACE89BEBF28B528DF8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureqingWatermark;
+			productName = PureqingWatermark;
+			productReference = DBE8AF995D657A7CB53FFC98 /* PureqingWatermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A98FA09F6880CCC6541716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					501D048A2DDCD29814D77A0E = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DE73C4F40636EE9A6942FB2 /* Build configuration list for PBXProject "PureqingWatermark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 2A2968EFB8D9DADD6B8C470A;
+			productRefGroup = CD02BBD63E25422BCE889891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501D048A2DDCD29814D77A0E /* PureqingWatermark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A20ACE89BEBF28B528DF8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3BC3630979F970097D13C /* Assets.xcassets in Resources */,
+                A01A01A01A01A01A01A01A01 /* AnimeFaceCascade.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB7A94DC3F28B37D1884017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F987B4146574EBDB75665D2 /* PureqingWatermarkApp.swift in Sources */,
+				E97763BB56ACAE4A7595B95F /* ContentView.swift in Sources */,
+                C00000000000000000000003 /* AnimeFaceDetector.swift in Sources */,
+                C00000000000000000000002 /* WatermarkPresets.swift in Sources */,
+                C00000000000000000000001 /* BatchProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FDA88B8B75DB7A7EDAE348F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BEFBAB4BF05A80F719D98F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "纯情の水印机";
+				INFOPLIST_KEY_CFBundleName = "纯情の水印机";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "将处理后的图片保存到照片图库。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.PureqingWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77273D29BC3D57A5AD38BBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CA05A1A49C2FCF32FC97873B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "纯情の水印机";
+				INFOPLIST_KEY_CFBundleName = "纯情の水印机";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "将处理后的图片保存到照片图库。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.PureqingWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE73C4F40636EE9A6942FB2 /* Build configuration list for PBXProject "PureqingWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDA88B8B75DB7A7EDAE348F /* Debug */,
+				77273D29BC3D57A5AD38BBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97F8757B963BFE241884527 /* Build configuration list for PBXNativeTarget "PureqingWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEFBAB4BF05A80F719D98F4 /* Debug */,
+				CA05A1A49C2FCF32FC97873B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A98FA09F6880CCC6541716 /* Project object */;
+}
